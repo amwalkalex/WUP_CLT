@@ -154,11 +154,9 @@ p <- ggplot(my1000, aes(x=k5),col=sex) +
 p + ggtitle("n = 25") +
   xlab("temperature") + ylab(" density")
 
-print(paste('mean = ', mean(my1000$k5),' sd = ',sd(my1000$k45)))
+print(paste('mean = ', mean(my1000$k5),' sd = ',sd(my1000$k5)))
 
 ```
-
-The standard deviation is now a quarter of what it was before which now it is 8. We expected it to be 8 and we get `r sd (my1000$k5)` 
 
 
 
