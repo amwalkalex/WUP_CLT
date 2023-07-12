@@ -128,11 +128,20 @@ p <- ggplot(my1000, aes(x=k4),col=sex) +
 # Add mean line
  geom_vline(aes(xintercept=mean(k4)),
             color="blue", linetype="dashed", size=1)
-p + ggtitle("n = 9") +
+p + ggtitle("n = 16") +
   xlab("temperature") + ylab(" density")
 
 print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 
 ```
+
+The standard deviation is now a quarter of what it was before which now it is 10.
+
+
+
+
+
+
+
 
 
