@@ -181,6 +181,6 @@ print(paste('mean = ', mean(my1000$k6),' sd = ',sd(my1000$k6)))
 
 ```
 
-The standard deviation is now a quarter of what it was before which now it is 8. We expected it to be 8 and we get `r sd (my1000$k5)` 
-
+we expect 6 and we got `r sd(my1000$k6)` 
+My expected value was off by a little, it rounds up to 7 with the code.
 
