@@ -135,7 +135,7 @@ print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 
 ```
 
-The standard deviation is now a quarter of what it was before which now it is 10.
+The standard deviation is now a quarter of what it was before which now it is 10.We expected it to be 10 and we get `r sd (my1000$k4)` 
 
 
 
